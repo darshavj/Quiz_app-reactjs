@@ -1,0 +1,35 @@
+.content{
+    padding-top:100px ;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.setting{
+    font-size: 45px;
+    padding: 10px;
+    padding-bottom: 150px;
+    align-items: center;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+  
+@media (max-width:800px){
+    .content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+}
+.setting_select{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+    flex: 0.8;
+    justify-content: space-evenly;
+}
+    
